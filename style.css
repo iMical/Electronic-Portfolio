@@ -1,3 +1,31 @@
+body{
+	background-color: #FAFDF3;
+}
+
 h1{
 	color: black;
+}
+
+.flexy{
+	display: flex;
+	justify-content: center;
+}
+
+.navbar{
+	float: center;
+	background-color: #C8AE7E;
+ 	text-align: center;
+	padding: 14px 16px;
+ 	text-decoration: none;
+  	font-size: 17px;
+  	width: 100%;
+}
+
+.navbar a:hover {
+  	background-color: #D2BD96;
+  	color: black;
+}
+
+.navbar a.active {
+  	color: black;
 }

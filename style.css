@@ -1,5 +1,9 @@
+@font-face{
+	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+}
+
 body{
-	background-color: #FAFDF3;
+	background-color: #E0D7C0;
 }
 
 h1{
@@ -12,27 +16,33 @@ h2{
 }
 
 div{
-
+	font-family: Trebuchet MS;
 }
 
 .flexy{
 	display: flex;
 	justify-content: center;
-	background-color: red;
 }
 .flexy2{
 	display: flex;
 	width: 50%;
-	background-color: green;
-}
-.flexy3{
-	display: flex;
-	width: 50%;
-	background-color: blue;
 }
 
-.floatright{
-	float: right;
+.imgcent{
+	justify-content: center;
+	margin: auto;
+}
+
+.hrreplacement{
+	background-color: #D0C39F;
+	height: 50px;
+}
+
+#canipleaseseethetitleofmyelectronicportfolio{
+	margin-top: 150px;
+}
+#pleasestoptouchingtheedgeofmyscreen{
+	margin: 7%;
 }
 
 .navbar{
@@ -43,6 +53,18 @@ div{
  	text-decoration: none;
   	font-size: 17px;
   	width: 100%;
+  	position: fixed;
+  	top: 0;
+}
+
+footer{
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	color: white;
+  	text-align: left;
+  	background-color: #C8AE7E;
+  	margin: 0px;
 }
 
 .navbar a:link{
@@ -50,7 +72,6 @@ div{
 }
 
 .navbar a:hover {
-  	background-color: #D2BD96;
   	color: black;
 }
 

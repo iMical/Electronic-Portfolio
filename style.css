@@ -1,3 +1,113 @@
+@font-face{
+	font-family: Trebuchet MS,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Tahoma,sans-serif;
+}
+
+body{
+	background-color: #E0D7C0;
+	margin: 0px;
+}
+
 h1{
 	color: black;
+	justify-content: center;
+}
+
+h2{
+	float: left;
+}
+
+div{
+	font-family: Trebuchet MS;
+}
+
+.flexy{
+	display: flex;
+	justify-content: center;
+}
+.flexy2{
+	display: flex;
+	width: 50%;
+}
+.flexy3{
+	display: flex;
+	width: 100%;
+}
+.flexy4{
+	display: flex;
+	width: 25%;
+}
+.flexy5{
+	display: flex;
+	width: 100%;
+	justify-content: center;
+}
+
+.imgcent{
+	justify-content: center;
+	margin: auto;
+}
+
+.hrreplacement{
+	background-color: #D0C39F;
+	height: 50px;
+}
+
+#canipleaseseethetitleofmyelectronicportfolio{
+	margin-top: 150px;
+}
+#pleasestoptouchingtheedgeofmyscreen{
+	margin: 7%;
+}
+
+.navbar{
+	background-color: #C8AE7E;
+ 	text-align: center;
+	padding: 14px 16px;
+ 	text-decoration: none;
+  	font-size: 17px;
+  	width: 100%;
+  	position: fixed;
+  	top: 0;
+}
+
+.footer{
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	color: white;
+  	text-align: left;
+  	background-color: #C8AE7E;
+  	margin: 0px;
+  	color: black;
+}
+
+.navbar a:link{
+	color: #EDE8D0;
+}
+
+.navbar a:hover {
+  	color: black;
+}
+
+.navbar a.active {
+  	color: black;
+}
+
+.banner{
+	background-color: #D0C39F;
+	padding-left: 25px;
+	padding-right: 25px;
+	margin-bottom: 17px;
+	text-align: center;
+}
+
+.imagebox{
+	background-color: #D0C39F;
+	width: 20%;
+	margin-left: 3%;
+	margin-right: 3%;
+	margin-bottom: 20px;
+	padding: 5px;
+	text-align: center;
+	justify-content: center;
 }

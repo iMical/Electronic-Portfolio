@@ -16,12 +16,15 @@
 	}
 	.flexy4{
 		display: flex;
-		width: 25%;
+		width: 50%;
+		flex-direction: column;
+		font-size: 10px;
 	}
 	.flexy5{
 		display: flex;
 		width: 100%;
 		justify-content: center;
+		flex-wrap: wrap;
 	}
 
 	.navbar{
@@ -56,7 +59,7 @@
 
 	.imagebox{
 		background-color: #D0C39F;
-		width: 20%;
+		width: 50%;
 		margin-left: 3%;
 		margin-right: 3%;
 		margin-bottom: 20px;
@@ -69,6 +72,15 @@
 		display: flex;
 		justify-content: center;
 	}
+
+	.description{
+		display: none;
+	}
+
+	h3{
+		font-size: 15px;
+	}
+
 }
 
 body{
@@ -104,11 +116,13 @@ div{
 .flexy4{
 	display: flex;
 	width: 25%;
+	flex-direction: column;
 }
 .flexy5{
 	display: flex;
 	width: 100%;
 	justify-content: center;
+	flex-wrap: wrap;
 }
 
 .imgcent{
@@ -148,6 +162,7 @@ div{
   	background-color: #C8AE7E;
   	margin: 0px;
   	color: black;
+  	padding: 3px;
 }
 
 .navbar a:link{
@@ -172,7 +187,7 @@ div{
 
 .imagebox{
 	background-color: #D0C39F;
-	width: 20%;
+	width: 15%;
 	margin-left: 3%;
 	margin-right: 3%;
 	margin-bottom: 20px;

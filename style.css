@@ -122,6 +122,10 @@ div{
 	width: 50%;
 }
 
+.description{
+	font-size: 10px;
+}
+
 @media screen and (max-width: 680px){
 	.flexy{
 		display: flex;
